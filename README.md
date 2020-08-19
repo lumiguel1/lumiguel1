@@ -1,10 +1,7 @@
-![ss](https://giffiles.alphacoders.com/117/11700.gif)
+![aa](https://mir-s3-cdn-cf.behance.net/project_modules/fs/9afe0493484903.5e66500f8dea4.gif)
 
-<audio controls>
-  <source src="https://www.computerhope.com/jargon/m/example.mp3" type="audio/ogg"/>
-</audio>
+# Hi guys, I'm Luiz 👋😁
 
-# Hi there 👋
 #### Languages I use
 
 
@@ -18,6 +15,7 @@
 ![GitHub](https://img.shields.io/badge/-GitHub-222222?style=flat&logo=github&logoColor=181717)
 ![Node.js](https://img.shields.io/badge/-Node.js-222222?style=flat&logo=node.js&logoColor=339933)
 ![React](https://img.shields.io/badge/-React-222222?style=flat&logo=React&logoColor=61DAFB)
+![VSCODE](https://camo.githubusercontent.com/6e79f3bc2d49bfe1427af244bf10a9f1cef902ca/687474703a2f2f696d672e736869656c64732e696f2f62616467652f2d5653253230436f64652d3030374143433f7374796c653d666c61742d737175617265266c6f676f3d76697375616c2d73747564696f2d636f6465266c6f676f436f6c6f723d666666666666)
 
 
 ![GitStat](https://github-readme-stats.vercel.app/api?username=lumiguel1&show_icons=true)
