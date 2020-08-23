@@ -1,8 +1,8 @@
 ![aa](https://mir-s3-cdn-cf.behance.net/project_modules/fs/9afe0493484903.5e66500f8dea4.gif)
 
-<p align="center"># Hi guys, I'm Luiz 👋😁</p>
-<p align="center">##### 19 years.</p>
-
+<p align="center"><strong>Hi guys, I'm Luiz 👋😁</strong></p>
+<p align="center">19 years.</p>
+__ABC__
 
 #### Languages I use
 
