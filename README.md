@@ -16,6 +16,7 @@
 ![GitHub](https://img.shields.io/badge/-GitHub-222222?style=flat&logo=github&logoColor=181717)
 ![Node.js](https://img.shields.io/badge/-Node.js-222222?style=flat&logo=node.js&logoColor=339933)
 ![React](https://img.shields.io/badge/-React-222222?style=flat&logo=React&logoColor=61DAFB)
+![TypeScript](https://camo.githubusercontent.com/46849fd58c949c7e01ce0a36712f2252b39a72c43e7bc6cab400c576f605b089/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d6a51756572792d3232323232323f7374796c653d666c6174266c6f676f3d6a5175657279266c6f676f436f6c6f723d303736394144)
 ![VSCODE](https://camo.githubusercontent.com/6e79f3bc2d49bfe1427af244bf10a9f1cef902ca/687474703a2f2f696d672e736869656c64732e696f2f62616467652f2d5653253230436f64652d3030374143433f7374796c653d666c61742d737175617265266c6f676f3d76697375616c2d73747564696f2d636f6465266c6f676f436f6c6f723d666666666666)
 
 ![GitStat](https://github-readme-stats.vercel.app/api?username=lumiguel1&show_icons=true)
