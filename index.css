@@ -7,3 +7,16 @@ body {
     color: #FFF;
 }
 
+/* Navbar Styles */
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    background-color: #373737;
+}
+
+.navbar-mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
