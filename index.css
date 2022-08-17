@@ -99,3 +99,7 @@ body {
     color: #FFF;
     text-decoration: none;
 }
+
+.container-links a:hover {
+    color: #F6F
+}
