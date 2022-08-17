@@ -18,6 +18,12 @@ body {
     
     background-color: #373737;
 }
+.navbar-start img {
+    cursor: pointer;
+
+    width: 40px;
+    height: 40px;
+}
 
 .navbar-mid {
     display: flex;
