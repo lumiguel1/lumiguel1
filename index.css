@@ -5,6 +5,8 @@ body {
     background-color: #130F0E;
 
     color: #FFF;
+
+    height: 1500px;
 }
 
 /* Navbar Styles */
@@ -30,6 +32,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .container {
@@ -49,6 +52,12 @@ body {
     padding: 0.5em;
 }
 
+.container-title a{
+    color: #FFF;
+    cursor: text;
+    text-decoration: none;
+}
+
 .container-main {
     display: flex;
     flex-direction: row;
@@ -57,10 +66,13 @@ body {
 }
 
 .container-links {
-    padding: 0.5em;
+    top: 40vh;
+    right: 1vw;
+    width: 140px;
     margin: 0.5em;
+    padding: 0.5em;
+    position: fixed;
     border-radius: 5px;
-
     background-color: #373737;
 }
 
@@ -72,16 +84,12 @@ body {
     flex-direction: column;
 
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
 
     list-style-type: none;
 }
 
-.container-footer {
-    width: 100%;
-
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: end;
+.container-links a {
+    color: #FFF;
+    text-decoration: none;
 }
