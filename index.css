@@ -9,6 +9,8 @@ body {
 
 /* Navbar Styles */
 .navbar {
+    padding: 1em;
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     
@@ -23,21 +25,46 @@ body {
 
 /* Main container Styles*/
 .main{
+    padding: 1em;
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .container {
+    padding: 1em;
+
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+
+    background-color: #222222;
+    border: 1px;
+    border-radius: 7px;
+}
+
+.container-title {
+    padding: 0.5em;
 }
 
 .container-main {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: center;
+}
+
+.container-links li{
+    cursor: pointer;
+}
+
+.container-footer {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
     flex-direction: row;
+    justify-content: end;
 }
