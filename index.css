@@ -64,15 +64,18 @@ body {
     margin: 0;
 }
 
-.main1 {
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     background: rgb(0,0,0);
-background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,215,0,0.6643032212885154) 17%, rgba(255,214,0,1) 34%, rgba(0,0,0,1) 88%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,215,0,1) 50%, rgba(0,0,0,1) 100%);
 }
 
 /* Main container Styles*/
-.main1, .main2, .main3, .main4, .main5{
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,215,0,1) 50%, rgba(0,0,0,1) 100%);
+.main-content{
+    width: 65%;
     padding: 2em;
 
     display: flex;
@@ -80,7 +83,7 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,215,0,0.664303221
     flex-direction: column;
 }
 
-.main1 + .main3 + .main5, .container{
+.main-content .container{
     padding: 1em;
 
     display: flex;
