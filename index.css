@@ -13,7 +13,10 @@ body {
 
 /* Navbar Styles */
 .navbarInicial {
+    width: 100vw;
+    position: fixed;
     background-color: #000;
+
     display: grid;
     grid-template-columns: 0.2fr 1fr 0.2fr;
     grid-auto-columns: auto;
@@ -65,12 +68,14 @@ body {
 }
 
 .main {
+    padding-top: 10%;
+
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,215,0,1) 50%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 9%, rgba(255,215,0,1) 21%, rgba(255,215,0,1) 32%, rgba(255,215,0,1) 36%, rgba(0,0,0,1) 50%, rgba(255,215,0,1) 59%, rgba(0,0,0,1) 72%, rgba(0,0,0,1) 100%);
 }
 
 /* Main container Styles*/
