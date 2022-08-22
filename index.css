@@ -39,36 +39,52 @@ body {
 }
 
 /* Main container Styles*/
-.main{
-    padding: 1em;
+.main1, .main3, .main5{
+    padding: 2em;
 
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    align-items: start;
+    flex-direction: row;
 }
 
-.container {
+.main1 + .main3 + .main5, .container{
     padding: 1em;
 
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
 
     background-color: #222222;
     border: 1px;
     border-radius: 7px;
 }
 
+.contentSobre {
+    display: flex;
+    gap: 15px;
+}
+
 .container-title {
     padding: 0.5em;
+}
+
+.container-title .contentSobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .container-title a{
     color: #FFF;
     cursor: text;
     text-decoration: none;
+}
+
+.container-title img {
+    width: 30px;
+    height: 30px;
 }
 
 .container-main {
