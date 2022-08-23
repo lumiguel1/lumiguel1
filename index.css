@@ -28,6 +28,36 @@ body {
     align-items: center;
 }
 
+.profile-panel {
+    position: absolute;
+
+    width: 200px;
+    height: 100%;
+    left: -200px;
+
+    background-color: #000;
+}
+
+.nav-active {
+    position: fixed;
+
+    cursor: pointer;
+
+    width: 200px;
+    height: 100vh;
+    z-index: 1;
+
+    background-color: #000;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ nav.profile-panel {
+    transform: translateX();
+}
+
 .navbar {
     padding: 1em;
 
