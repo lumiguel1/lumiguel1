@@ -1,4 +1,2 @@
-function changePage(x) {
-    console.log(x);
-    
-}
+console.log("Oi");
+window.location.href='#tecno';
