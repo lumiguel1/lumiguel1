@@ -28,6 +28,8 @@ body {
     align-items: center;
 }
 
+
+/* ------ PANEL ------*/
 .profile-panel {
     position: absolute;
 
@@ -61,6 +63,9 @@ body {
 input[type="checkbox"] {
     display: none;
 }
+/* ------ PANEL ------*/
+
+
 
 .navbar {
     padding: 1em;
