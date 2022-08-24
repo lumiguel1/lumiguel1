@@ -183,6 +183,7 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 9%, rgba(255
 
 .container-content {
     padding: 0.8em;
+    margin-bottom: 30px;
 }
 
 .container-content strong{

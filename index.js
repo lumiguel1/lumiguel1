@@ -1,3 +1,18 @@
+$(document).ready(function(e) {
+    $('#nav a').click(function(e) {
+        e.preventDefault();
+
+        var id = $(this).attr('href');
+        targetOffset = $(id).position().top;
+        var targetOffset = targetOffset - 165;
+        console.log(targetOffset);
+
+        $('html, body').animate({
+            scrollTop: targetOffset
+        }, 500)
+    });
+})
+
 function onCheckBox(x) {
    var a = document.querySelector("#checc").checked;
    console.log(a);
