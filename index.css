@@ -25,47 +25,26 @@ body {
 .profile {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
 
 /* ------ PANEL ------*/
 .profile-panel {
-    position: absolute;
-
     width: 200px;
+
+    top: 0;
+    position: fixed;
     height: 100%;
     left: -200px;
 
-    transition-delay: 3s;
-
     background-color: #000;
 }
 
-.nav-active {
-    position: fixed;
-
-    cursor: pointer;
-
-    height: 100vh;
-    z-index: 1;
-
-    width: 200px;
-
-    transition: width 5s;
-    background-color: #000;
+.profile-panel .active {
+    transform: translateX(200px);
 }
-
-.nav-active:enabled  {
-    width: 10px;
-}
-
-input[type="checkbox"] {
-    display: none;
-}
-/* ------ PANEL ------*/
-
-
 
 .navbar {
     padding: 1em;
@@ -76,22 +55,13 @@ input[type="checkbox"] {
     justify-content: center;
 }
 
-.navbar-start {
-    padding: 1em;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar-start img {
+.profile img {
     cursor: pointer;
 
     width: 35%;
 }
 
-.navbar-start h4 {
+.profile h4 {
     margin: 0 10px 0;
 }
 
@@ -106,6 +76,14 @@ input[type="checkbox"] {
     margin: 0;
 }
 
+.navbar-profile {
+    width: fit-content;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .main {
     padding-top: 10%;
 
@@ -114,7 +92,7 @@ input[type="checkbox"] {
     flex-direction: column;
     justify-content: center;
     background: rgb(0,0,0);
-background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 9%, rgba(255,215,0,1) 21%, rgba(255,215,0,1) 22%, rgba(0,0,0,1) 34%, rgba(255,215,0,1) 36%, rgba(0,0,0,1) 50%, rgba(255,215,0,1) 59%, rgba(0,0,0,1) 72%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 9%, rgba(255,215,0,1) 21%, rgba(255,215,0,1) 22%, rgba(0,0,0,1) 34%, rgba(255,215,0,1) 36%, rgba(0,0,0,1) 50%, rgba(255,215,0,1) 59%, rgba(0,0,0,1) 72%, rgba(0,0,0,1) 100%);
 }
 
 /* Main container Styles*/

@@ -13,21 +13,17 @@ $(document).ready(function(e) {
     });
 })
 
-function onCheckBox(x) {
-   var a = document.querySelector("#checc").checked;
-   console.log(a);
-   if(a == false) {
-        console.log("desativado")
-        document.getElementById("navPerfil").setAttribute("class", "profile-panel");
-   } else {
-        document.getElementById("navPerfil").setAttribute("class", "nav-active");
-   }
-}
-
-function closeNav(x) {
-    let className = document.querySelector("#navPerfil").className;
-    if(className = "nav-active"){
-        let c = document.querySelector("#checc").checked = false;
-        onCheckBox();
-    }
+function profile(x) {
+    let target = document.querySelector("#navPerfil");
+    let slid = target.animate([
+        {
+            transform: 'translate(0,0)'
+        },
+        {
+            transform: 'translate(200px,0)'
+        }
+    ], 500)
+    slid.addEventListener('finish', function() {
+        target.style.transform = 'translate(200px, 0)'
+    })
 }

@@ -13,31 +13,13 @@
     <title>LuMiguel1</title>
 </head>
 <body>
-
-    <nav class="profile-panel" id="navPerfil" onclick="closeNav(this)">
-        oi
-        <ul>
-            <li>2</li>
-            <li>2</li>
-            <li>2</li>
-            <li>2</li>
-            <li>2</li>
-            <li>@</li>
-        </ul> 
-    </nav>
-
+    
     <div class="navbarInicial">
-        <div class="profile">
-            <input type="checkbox" id="checc" onChange="onCheckBox(this)" value>
-
-            <label for="checc">
-                <div class="navbar-start">
-                    <img src="./assets/manager-profile-svgrepo-com.svg" alt="Perfil">
-                    <h4>Perfil</h4>
-                </div>
-            </label>
-
+        <div class="profile" onclick="profile(this)">
+            <img src="./assets/manager-profile-svgrepo-com.svg" alt="Perfil">
+            <h4>Perfil</h4>
         </div>
+
         <div id="nav">
             <div class="navbar">
                 <div class="navbar-mid"><h1>Portifólio</h1></div>
@@ -100,8 +82,6 @@
                 </div>
             </div>
         </div>
-    
-
 
         <div class="main-content">
             <div class="container">
@@ -236,5 +216,17 @@
             </div>
         </div>
     </div>
+
+    <nav class="profile-panel" id="navPerfil">
+        oi
+        <ul>
+            <li>2</li>
+            <li>2</li>
+            <li>2</li>
+            <li>2</li>
+            <li>2</li>
+            <li>@</li>
+        </ul> 
+    </nav>
 </body>
 </html>
