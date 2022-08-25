@@ -175,7 +175,9 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 9%, rgba(255
 }
 
 .container-main {
-    display: flex;
+    width: 100%;
+
+    display: block;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -219,9 +221,66 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 9%, rgba(255
     color: #F6F
 }
 
-.projects-title {
-    
+.projects-cards {
+    padding: 1em;
+
+    border: 1px;
+    border-radius: 15px;
+
+    background-color: #2F2F2F;
 }
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.projects-title {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.projects-title p,strong{
+    padding: 0;
+    margin: 0;
+    width: 0;
+}
+
+.projects-title h3 {
+    margin: 0;
+}
+
+
+.projects-title strong{
+    padding: 0;
+    color: #FFD700;
+    margin-right: 10px;
+}
+
+.projects-footer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.projects-footer p,strong{
+    padding: 0;
+    margin: 0;
+    width: 0;
+}
+
+.projects-footer h3 {
+    margin: 0;
+}
+
+.projects-footer strong{
+    padding: 0;
+    color: #FFD700;
+    margin-right: 10px;
+}
+
 
 .techIcons {
     padding: 1em;
@@ -234,6 +293,7 @@ background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 9%, rgba(255
     display: flex;
     align-items: center;
     flex-direction: row;
+    justify-content: center;
 }
 
 .techIcons img {
