@@ -30,6 +30,9 @@ function profile(x) {
 
 function openSkills(x) {
     $('.main-profile').animate({height: '80vh'});
+
+    let element = document.querySelector('.cards-active');
+    element.setAttribute("display", "flex");
 }
 
 function closeNav(x) {

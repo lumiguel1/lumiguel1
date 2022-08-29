@@ -391,7 +391,7 @@ body::-webkit-scrollbar-thumb {
     height: 0px;
 
     background-color: #000;
-    display: flex;
+    display: none;
     justify-content: center;
 }
 
@@ -418,6 +418,8 @@ body::-webkit-scrollbar-thumb {
 .cards-active {
     padding: 0.5em;
     gap: 5px;
+
+    display: none;
 
     overflow: scroll;
 }
