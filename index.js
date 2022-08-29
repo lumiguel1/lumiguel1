@@ -29,7 +29,7 @@ function profile(x) {
 }
 
 function openSkills(x) {
-    $('.main-profile').animate({height: '100vh'});
+    $('.main-profile').animate({height: '80vh'});
 }
 
 function closeNav(x) {
