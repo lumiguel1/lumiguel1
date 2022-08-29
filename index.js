@@ -31,3 +31,18 @@ function profile(x) {
 function openSkills(x) {
     $('.main-profile').animate({height: '100vh'});
 }
+
+function closeNav(x) {
+    let target = document.querySelector("#navPerfil");
+    let slid = target.animate([
+        {
+            transform: 'translate(200px,0)'
+        },
+        {
+            transform: 'translate(0,0)'
+        }
+    ], 500)
+    slid.addEventListener('finish', function() {
+        target.style.transform = 'translate(0, 0)'
+    });
+}
