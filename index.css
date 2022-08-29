@@ -370,9 +370,9 @@ body {
     height: 0px;
 
     background-color: #000;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .openSkills {
@@ -393,4 +393,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.skill-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.skill-card h4{
+    color: #34B427;
+}
+
+.skill-card p{
+    font-size: 14px;
 }
