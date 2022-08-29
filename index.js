@@ -25,5 +25,9 @@ function profile(x) {
     ], 500)
     slid.addEventListener('finish', function() {
         target.style.transform = 'translate(200px, 0)'
-    })
+    });
+}
+
+function openSkills(x) {
+    $('.main-profile').animate({height: '100vh'});
 }
