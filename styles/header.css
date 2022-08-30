@@ -1,0 +1,75 @@
+/* Header Styles - Navbar Styles */
+.navbarInicial {
+    padding-bottom: 25px;
+
+    width: 100vw;
+    position: fixed;
+
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.2fr;
+    grid-auto-columns: auto;
+
+    background-color: #000;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ------ PANEL ------*/
+.profile-panel {
+    width: 200px;
+    height: 20%;
+    top: 0;
+    left: -200px;
+    position: fixed;
+
+    border: 1px;
+    border-radius: 0 0 5px 5px;
+    background-color: #000;
+}
+
+.profile-panel .active {
+    transform: translateX(200px);
+}
+
+.navbar {
+    padding: 1em;
+
+    color: #FFD700;
+
+    display: flex;
+    justify-content: center;
+}
+
+.profile img {
+    width: 35%;
+    
+    cursor: pointer;
+}
+
+.profile h4 {
+    margin: 0 10px 0;
+}
+
+.navbar-mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-mid h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-profile {
+    width: fit-content;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
