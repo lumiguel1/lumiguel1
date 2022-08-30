@@ -52,3 +52,4 @@ function closeNav(x) {
         target.style.transform = 'translate(0, 0)'
     });
 }
+
