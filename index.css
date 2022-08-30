@@ -494,6 +494,8 @@ body::-webkit-scrollbar-thumb {
     right: 22px;
     width: 40px;
     z-index: 3;
+
+    transition: 1s;
 }
 
 .toTop::after {
@@ -502,4 +504,8 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
     padding-left: 1px;
     padding-top: 7px;
+}
+
+.toTop:hover{
+    background-color: #111111;
 }
