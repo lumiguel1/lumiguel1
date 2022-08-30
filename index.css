@@ -454,15 +454,24 @@ body::-webkit-scrollbar-thumb {
     flex-direction: column;
     justify-content: center;
 
-    margin-bottom: 0.5em;
+    margin-bottom: 2em;
+
+    cursor: pointer;
 
     border-radius: 4px;
     background-color: #222222;
     text-align: center;
+
+    transition: 1s;
+}
+
+.skill-card:hover {
+    background-color: #111111;
 }
 
 .skill-card h4{
     color: #34B427;
+    margin: 5px;
 }
 
 .skill-card p{
