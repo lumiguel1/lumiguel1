@@ -161,6 +161,11 @@
     width: auto;
 }
 
+.projects-footer a {
+    color: #34B427;
+    text-decoration: underline;
+}
+
 .projects-footer strong{
     padding: 0;
     color: #FFD700;
