@@ -38,6 +38,14 @@ function openSkills(x) {
     console.log("OOOOOOOOOOOOOOi");
 }
 
+function openTitules(x) {
+    let element = document.querySelector(".container-links");
+    element.classList.add("container-links-small");
+    element.classList.remove("container-links");
+
+    $('.container-links-small').animate({height: '130px'});
+}
+
 function closeNav(x) {
     let target = document.querySelector("#navPerfil");
     let slid = target.animate([
@@ -58,3 +66,11 @@ $(document).ready(function () {
         $("html, body").animate({scrollTop: 0}, 800);
     });
 });
+
+document.addEventListener('scroll', (event) => {
+    $('.container-links-small').animate({height: '0px'});
+
+    let element = document.querySelector(".container-links-small");
+    element.classList.add("container-links");
+    element.classList.remove("container-links-small");  
+})

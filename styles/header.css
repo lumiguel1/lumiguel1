@@ -12,6 +12,38 @@
     background-color: #000;
 }
 
+.container-links {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-small {
+    display: none;
+}
+
+.container-links li{
+    padding: 0.8em;
+
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container-links a {
+    color: #FFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container-links a:hover {
+    color: #F6F
+}
+
 .profile {
     display: flex;
     align-items: center;
@@ -72,4 +104,16 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.container-menu-small {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-menu-titles {
+    display: none;
+    align-items: center;
+    justify-content: center;
 }
