@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .techIcons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .social-cards img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .toTop {
+        right: 47%;
+    }
+}
+
+@media (max-width: 425px) {
+    .main {
+        padding-top: 35%;
+    }
+
+    .main-content {
+        padding: 0;
+
+        width: 95%;
+    }
+
+    .container {
+        
+    }
+
+    .container-content {
+        padding: 0;
+    }
+}
