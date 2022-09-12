@@ -82,3 +82,9 @@
         gap: 20px;
     }
 }
+
+@media(max-width: 375px) {
+    .social {
+        grid-template-columns: 1fr 1fr;
+    }
+}
