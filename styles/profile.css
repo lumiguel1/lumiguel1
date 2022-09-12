@@ -131,6 +131,33 @@
     color: #34B427;
 }
 
+.myself {
+    width: 95%;
+    margin-bottom: 5px;
+
+    border-radius: 20px;
+
+    background-color: #111111;
+}
+
+.myself h5 {
+    margin: 0;
+    color: #FFD700;
+}
+
+.myself p {
+    margin-top: 0;
+}
+
+.mySkills {
+    margin-bottom: 2em;
+}
+
+.mySkills h4{
+    margin: 0;
+    color: #FFD700  ;
+}
+
 .skill-card p{
     font-size: 14px;
 }
