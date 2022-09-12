@@ -71,6 +71,8 @@ document.addEventListener('scroll', (event) => {
     $('.container-links-small').animate({height: '0px'});
 
     let element = document.querySelector(".container-links-small");
-    element.classList.add("container-links");
-    element.classList.remove("container-links-small");  
+    if(element != null){
+        element.classList.add("container-links");
+        element.classList.remove("container-links-small"); 
+    };
 })
