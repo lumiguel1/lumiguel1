@@ -1,7 +1,7 @@
 ![aa](https://mir-s3-cdn-cf.behance.net/project_modules/fs/9afe0493484903.5e66500f8dea4.gif)
 
 # **_Hi guys, I'm Luiz_** 👋😁
-# **_21 years._**
+# **_22 years._**
 [![Linkedin Badge](https://img.shields.io/badge/-Luiz_Miguel-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/luiz-miguel-30593b192/)](https://www.linkedin.com/in/luiz-miguel-30593b192/)
 [![Instagram Badge](https://img.shields.io/badge/-@lmrj2600-000000?style=flat&logo=instagram&logoColor=white&link=https://instagram.com/lmrj2600/)](https://instagram.com/lmrj2600)
 #### Languages I use
